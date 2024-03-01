@@ -17,17 +17,55 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: nasalization-rg;
+  background: #001129;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.poppins{
+  font-family: Poppins-Regular !important;
+}
+
+
+@font-face {
+  font-family: nasalization-rg;
+  src: url(/Fonts/nasalization-rg.otf);
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(/Fonts/Poppins-Regular.ttf);
+}
+
+.know-more{
+  transition: all ease-in 300ms !important;
+}
+.know-more-down{
+  transition: all ease-in 300ms !important;
+}
+
+.know-more:hover{
+  transform: translateX(10px); 
+}
+
+.know-more-down:hover{
+  transform: translateY(10px); 
+}
+
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0); /* Start and end position */
+  }
+  50% {
+    transform: translateY(-20px); /* Middle position, adjust the value as needed */
+  }
+}
+
+.updown {
+  animation: moveUpDown 2s ease-in-out infinite; /* Adjust duration as needed */
 }

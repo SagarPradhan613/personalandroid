@@ -1,0 +1,80 @@
+@media screen and (max-width:1080px) {
+    .responsive-hero-text {
+        font-size: 2.25rem !important
+            /* 36px */
+        ;
+        line-height: 2.5rem !important
+            /* 40px */
+        ;
+    }
+
+    .hero-section {
+        background-image: url('/Images/mobileherobg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1080px) and (max-width:1300px) {
+    .responsive-hero-text {
+        font-size: 120px !important;
+    }
+    .responsive-text-width{
+        width: 48% !important;
+    }
+    .responsive-big-paddings{
+        padding-left: 8rem !important;
+        padding-right: 8rem !important;
+    }
+    .responsive-pc-size{
+        min-width:500px !important;
+    }
+}
+
+.top-white-portion {
+
+    clip-path: polygon(0 0, 95% 0, 100% 100%, 100% 100%, 0 100%, 0% 50%);
+}
+
+.bottom-white-portion {
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 8% 100%, 0 0);
+}
+
+.mob-top{
+    clip-path: polygon(8% 0, 92% 0, 100% 100%, 0% 100%);
+}
+.mob-bottom{
+    clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%);
+}
+.gradient-bg{
+    background-image: linear-gradient(to bottom, #20338d, #4659fb);
+
+}
+
+.lastfirst{
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 100% 100%, 0 100%, 0% 50%);
+}
+.lastsecond{
+    clip-path: polygon(0 0, 93% 0, 100% 100%, 100% 100%, 0 100%, 0% 50%);
+}
+.lastclip{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%);
+}
+
+@media screen and (min-width:1900px) {
+    .relative-last-padding{
+        padding-left: 25rem !important;
+        padding-right: 25rem !important;
+    }
+}
+
+@media screen and (min-width:2500px) {
+    .relative-last-padding{
+        padding-left: 35rem !important;
+        padding-right: 35rem !important;
+    }
+    .minusmt{
+        margin-top: -3px;
+    }
+}
