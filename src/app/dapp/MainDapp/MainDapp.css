@@ -9,10 +9,10 @@
 }
 .main2{
    
-    background-image: url('/Images/main2.png');
+    background-image: url('/Images/smallermain2.png');
     background-repeat: no-repeat;
-    background-size: cover;
-   
+    background-size: 100% 100%; /* Adjust this value as needed */
+    min-height: 770px !important;
    
 }
 .main3{
@@ -44,9 +44,30 @@
     .responsive-width-btn{
         width: 206px;
     }
-    .responsive-main-height{
+    /* .responsive-main-height{
         height: 95vh !important;
         margin-bottom: 2rem;
+    } */
+}
+
+
+
+.coinpfp{
+    width: 37px !important;
+    height: 37px !important;
+}
+
+@media screen and (max-width:720px) {
+    .coinbox{
+        width: 184px;
     }
 }
 
+@media screen and (min-width:1080px) {
+    .coinbox{
+        width: 180px;
+    }
+    .coinbox p{
+        white-space: nowrap;
+    }
+}
