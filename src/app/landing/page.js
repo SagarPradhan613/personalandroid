@@ -7,7 +7,7 @@ const Landing = () => {
             {/* hero section */}
             <div className="hero-section -mt-8 lg:mt-0">
                 <div className="lg:flex hidden absolute w-full  justify-end">
-                    <div className="mt-0">
+                    {/* <div className="mt-0">
                         <div>
                             <img className="opacity-40" src="/Images/herotop.png"></img>
                         </div>
@@ -17,6 +17,9 @@ const Landing = () => {
                     </div>
                     <div>
                         <img src="/Images/heroright.png"></img>
+                    </div> */}
+                    <div >
+                        <img src='/Images/wholeherobg.png'></img>
                     </div>
                 </div>
                 <div className="lg:px-16 px-8 py-10 relative z-30  lg:pt-24 lg:pb-36">
@@ -63,7 +66,7 @@ const Landing = () => {
             </div>
 
             {/* second section */}
-            <div className='w-full hidden mt-28 lg:block relative px-6'>
+            <div className='w-full respponsive-scond-margin hidden  lg:block relative px-6'>
                 <div className='absolute z-30 left-0 -top-72'>
                     <img src='/Images/leftmask.png'></img>
                 </div>
@@ -71,7 +74,7 @@ const Landing = () => {
                     <img src='/Images/rightmask.png'></img>
                 </div>
                 <div className='flex w-full justify-start'>
-                    <div className='bg-white top-white-portion w-[80%] p-8 rounded-tl-[20px]'>
+                    <div className='bg-white top-white-portion w-[88%] p-8 rounded-tl-[20px]'>
 
                     </div>
                 </div>

@@ -84,3 +84,13 @@
         max-width: 536px !important;
     }
 }
+@media screen and (min-width:1600px) {
+    .respponsive-scond-margin{
+       margin-top: 0.5rem !important;
+    }
+}
+@media screen and (min-width:1700px) {
+    .respponsive-scond-margin{
+       margin-top: 3rem !important;
+    }
+}
