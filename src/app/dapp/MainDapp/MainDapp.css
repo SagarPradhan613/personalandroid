@@ -12,7 +12,6 @@
     background-image: url('/Images/main2.png');
     background-repeat: no-repeat;
     background-size: cover;
-  height: 90%;
    
    
 }
@@ -44,6 +43,10 @@
     } */
     .responsive-width-btn{
         width: 206px;
+    }
+    .responsive-main-height{
+        height: 95vh !important;
+        margin-bottom: 2rem;
     }
 }
 

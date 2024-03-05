@@ -27,8 +27,8 @@ const Landing = () => {
                         <div className="flex items-center">
                             <p className="text-white font-normal responsive-hero-text lg:text-[140px] whitespace-nowrap">Unlock the</p>
                         </div>
-                        <div className="border border-[#476FFF] gap-6 rounded-[10px] transform hover:scale-110 transition-transform ease-in duration-300 lg:flex hidden items-center p-8">
-                            <p className="text-white lg:text-3xl text-sm font-normal">open launcher</p>
+                        <div className="border border-[#476FFF] gap-6 rounded-[10px] transform hover:scale-110 transition-transform ease-in duration-300 lg:flex hidden items-center py-6 px-8 pb-8">
+                            <p className="text-white lg:text-3xl text-sm font-normal">open Launcher</p>
                             <svg width="58" height="24" viewBox="0 0 58 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M57.0607 13.0607C57.6465 12.4749 57.6465 11.5251 57.0607 10.9393L47.5147 1.39339C46.9289 0.807607 45.9792 0.807607 45.3934 1.39339C44.8076 1.97918 44.8076 2.92893 45.3934 3.51472L53.8787 12L45.3934 20.4853C44.8076 21.0711 44.8076 22.0208 45.3934 22.6066C45.9792 23.1924 46.9289 23.1924 47.5147 22.6066L57.0607 13.0607ZM1.31134e-07 13.5L56 13.5L56 10.5L-1.31134e-07 10.5L1.31134e-07 13.5Z" fill="#476FFF" />
                             </svg>
@@ -41,7 +41,7 @@ const Landing = () => {
                     </div>
 
                     <div className="border max-w-[173px] border-[#476FFF] gap-3 rounded-[10px] flex lg:hidden mt-10 mb-6 items-center py-2 px-2 transform hover:scale-110 transition-transform ease-in duration-300 ">
-                        <p className="text-white lg:text-3xl whitespace-nowrap text-sm font-normal">open launcher</p>
+                        <p className="text-white lg:text-3xl whitespace-nowrap text-sm font-normal">open Launcher</p>
                         <svg width="25" height="8" viewBox="0 0 25 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M24.3536 4.35355C24.5488 4.15829 24.5488 3.84171 24.3536 3.64644L21.1716 0.464464C20.9763 0.269202 20.6597 0.269202 20.4645 0.464464C20.2692 0.659727 20.2692 0.976309 20.4645 1.17157L23.2929 4L20.4645 6.82843C20.2692 7.02369 20.2692 7.34027 20.4645 7.53553C20.6597 7.73079 20.9763 7.73079 21.1716 7.53553L24.3536 4.35355ZM4.37114e-08 4.5L24 4.5L24 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="#476FFF" />
                         </svg>
@@ -83,7 +83,7 @@ const Landing = () => {
 
                         <div className='font-normal mt-2 lg:text-7xl pb-16 '>
                             <p>What is</p>
-                            <p className='text-[#9747FF] '>Android ?</p>
+                            <p className='text-[#9747FF] '>AnDroid ?</p>
                         </div>
 
                         <div className='flex ml-8 justify-start mt-2 items-start responsive-text-width  w-[60%]'>
@@ -214,7 +214,7 @@ const Landing = () => {
                         <img src='/Images/gradientpp2.png' className='lg:w-[66px] lg:h-[76px] w-[40px] h-[40px]'></img>
                     </div>
                     <div className='bg-[#475AFF] respponsive-boxes rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-20 lg:pt-32'>
-                        <p className='font-normal text-2xl lg:text-4xl responsive-box-title text-white'>Customizable tokens</p>
+                        <p className='font-normal text-2xl lg:text-4xl responsive-box-title text-white'>Customizable Tokens</p>
                         <p className='mt-6 poppins font-normal text-white opacity-50 text-xs lg:text-lg responsive-box-para'>AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating </p>
 
                         <div className='flex mt-6 gap-4 text-white items-center'>
