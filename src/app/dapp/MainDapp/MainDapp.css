@@ -1,0 +1,49 @@
+.main1{
+   
+    background-image: url('/Images/main1shape.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+   
+    
+}
+.main2{
+   
+    background-image: url('/Images/main2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+   
+   
+}
+.main3{
+   
+    background-image: url('/Images/main3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+   
+}
+
+.mob1{
+    background-image: url('/Images/mob1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mob2{
+    background-image: url('/Images/mob2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+@media screen and (max-height: 1000px) {
+    /* .responsive-height{
+        height: 110vh !important;
+    } */
+    .responsive-width-btn{
+        width: 206px;
+    }
+}
+

@@ -7,22 +7,22 @@ const Landing = () => {
             {/* hero section */}
             <div className="hero-section -mt-8 lg:mt-0">
                 <div className="lg:flex hidden absolute w-full  justify-end">
-                    <div className="mt-10">
+                    <div className="mt-0">
                         <div>
-                            <img className="" src="/Images/herotop.png"></img>
+                            <img className="opacity-40" src="/Images/herotop.png"></img>
                         </div>
-                        <div className="mt-10 ml-40">
-                            <img className="" src="/Images/herobottom.png"></img>
+                        <div className="mt-6  ml-44">
+                            <img className="w-[]" src="/Images/herobottom.png"></img>
                         </div>
                     </div>
                     <div>
-                        <img className="" src="/Images/heroright.png"></img>
+                        <img src="/Images/heroright.png"></img>
                     </div>
                 </div>
                 <div className="lg:px-16 px-8 py-10 relative z-30  lg:pt-24 lg:pb-36">
                     <div className="flex gap-8 items-center mt-8 lg:mt-10">
                         <div className="flex items-center">
-                            <p className="text-white font-normal responsive-hero-text lg:text-[130px] whitespace-nowrap">Unlock The</p>
+                            <p className="text-white font-normal responsive-hero-text lg:text-[130px] whitespace-nowrap">Unlock the</p>
                         </div>
                         <div className="border border-[#476FFF] gap-6 rounded-[10px] transform hover:scale-110 transition-transform ease-in duration-300 lg:flex hidden items-center p-8">
                             <p className="text-white lg:text-3xl text-sm font-normal">open launcher</p>
@@ -44,7 +44,7 @@ const Landing = () => {
                         </svg>
                     </div>
 
-                    <div className="lg:flex relative z-[100] transform hover:scale-110 transition-transform ease-in duration-300 hidden items-center lg:gap-6 gap-2 ml-6">
+                    <div className="lg:flex  mt-6 relative z-[100] transform hover:scale-110 transition-transform ease-in duration-300 hidden items-center lg:gap-6 gap-2 ml-8">
                         <p className="text-[#476FFF] font-normal text-base lg:text-lg">Know more</p>
                         <svg className='know-more-down z-50' width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7.29289 14.7071C7.68342 15.0976 8.31658 15.0976 8.70711 14.7071L15.0711 8.34315C15.4616 7.95262 15.4616 7.31946 15.0711 6.92893C14.6805 6.53841 14.0474 6.53841 13.6569 6.92893L8 12.5858L2.34315 6.92893C1.95262 6.53841 1.31946 6.53841 0.928932 6.92893C0.538408 7.31946 0.538408 7.95262 0.928933 8.34315L7.29289 14.7071ZM7 4.37114e-08L7 14L9 14L9 -4.37114e-08L7 4.37114e-08Z" fill="#476FFF" />
@@ -63,7 +63,7 @@ const Landing = () => {
             </div>
 
             {/* second section */}
-            <div className='w-full hidden lg:block relative px-6'>
+            <div className='w-full hidden mt-28 lg:block relative px-6'>
                 <div className='absolute z-30 left-0 -top-72'>
                     <img src='/Images/leftmask.png'></img>
                 </div>
@@ -189,7 +189,7 @@ const Landing = () => {
                     <div className='absolute transform hover:scale-110 transition-transform ease-in duration-300 z-50 gradient-bg -top-12 left-8 border border-white border-opacity-30 rounded-[50%] lg:h-[159px] h-[97px] w-[97px] flex justify-center items-center lg:w-[159px]'>
                         <img src='/Images/gradientpp1.png' className='lg:w-[66px] lg:h-[76px] w-[40px] h-[40px]'></img>
                     </div>
-                    <div className='bg-[#475AFF] rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-16 lg:pt-32'>
+                    <div className='bg-[#475AFF] respponsive-boxes rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-16 lg:pt-32'>
                         <p className='font-normal text-2xl lg:text-4xl text-white'>Ease of Use</p>
                         <p className='mt-6 poppins font-normal text-white opacity-50 text-xs lg:text-lg'>AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating </p>
 
@@ -210,7 +210,7 @@ const Landing = () => {
                     <div className='absolute transform hover:scale-110 transition-transform ease-in duration-300 z-50 gradient-bg -top-12 left-8 border border-white border-opacity-30 rounded-[50%] lg:h-[159px] h-[97px] w-[97px] flex justify-center items-center lg:w-[159px]'>
                         <img src='/Images/gradientpp2.png' className='lg:w-[66px] lg:h-[76px] w-[40px] h-[40px]'></img>
                     </div>
-                    <div className='bg-[#475AFF] rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-16 lg:pt-32'>
+                    <div className='bg-[#475AFF] respponsive-boxes rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-16 lg:pt-32'>
                         <p className='font-normal text-2xl lg:text-4xl text-white'>customizable tokens</p>
                         <p className='mt-6 poppins font-normal text-white opacity-50 text-xs lg:text-lg'>AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating </p>
 
@@ -231,7 +231,7 @@ const Landing = () => {
                     <div className='absolute transform hover:scale-110 transition-transform ease-in duration-300 z-50 gradient-bg -top-12 left-8 border border-white border-opacity-30 rounded-[50%] lg:h-[159px] h-[97px] w-[97px] flex justify-center items-center lg:w-[159px]'>
                         <img src='/Images/gradientpp3.png' className='lg:w-[66px] lg:h-[76px] w-[40px] h-[40px]'></img>
                     </div>
-                    <div className='bg-[#475AFF] rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-16 lg:pt-32'>
+                    <div className='bg-[#475AFF] respponsive-boxes rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-16 lg:pt-32'>
                         <p className='font-normal text-2xl lg:text-4xl text-white whitespace-nowrap'>Automated Verification</p>
                         <p className='mt-6 poppins font-normal text-white opacity-50 text-xs lg:text-lg'>AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating </p>
 
@@ -306,10 +306,10 @@ const Landing = () => {
                 </div>
 
                 <div className='lg:flex hidden justify-center relative items-center'>
-                    <div className='relative -mt-80 z-30 '>
+                    <div className='relative -mt-96 z-30 '>
                         <img src='/Images/systemtoppc.png' className='min-w-[600px] responsive-pc-size'></img>
                     </div>
-                    <div className='absolute left-20 z-20 '>
+                    <div className='absolute left-28 z-20 '>
                         <img src='/Images/systembottompc.png' className='min-w-[600px] responsive-pc-size'></img>
                     </div>
                 </div>
@@ -318,7 +318,7 @@ const Landing = () => {
 
             {/* sixth section */}
 
-            <div className='relative w-full hidden lg:flex justify-center items-center relative-last-padding px-60 flex-col'>
+            <div className='relative w-full hidden lg:flex justify-center items-center relative-last-padding mt-32 px-60 flex-col'>
                 <div className='absolute z-20 w-full -top-[13rem] left-0'>
                     <img src='/Images/lastleft.png'></img>
                 </div>
@@ -328,37 +328,39 @@ const Landing = () => {
                     </div>
                 </div>
 
+                <div className='lg:max-w-[959px]'>
+                    <div className='flex relative z-10 justify-start w-full'>
+                        <div className='rounded-tl-[20px] w-[30%] bg-white py-8 lastfirst'>
 
-                <div className='flex relative z-10 justify-start w-full'>
-                    <div className='rounded-tl-[20px] w-[30%] bg-white py-8 lastfirst'>
-
-                    </div>
-                </div>
-
-                <div className='-mt-[1px] minusmt relative z-10 w-full bg-white py-8 lastsecond'>
-
-                </div>
-                <div className='w-full minusmt -mt-[1px] bg-white px-28 py-6'>
-                    <div className='flex relative z-[200] w-full gap-6 poppins font-normal text-xl'>
-                        <input placeholder='Name' className='w-1/2 px-4 py-4 border border-black border-opacity-45 rounded-[8px]'>
-
-                        </input>
-                        <input placeholder='Email' className='w-1/2 px-4 py-4 border border-black border-opacity-45 rounded-[8px]'>
-
-                        </input>
-                    </div>
-                    <div className='mt-8 px-4 w-full'>
-                        <div className='w-full transform hover:scale-95 transition-transform ease-in duration-300 relative z-50 font-normal text-xl py-4 text-white flex justify-center rounded-[8px] items-center bg-[#476FFF]'>
-                            <p>Submit Details</p>
                         </div>
                     </div>
-                    <div className='poppins mt-10 text-center font-normal text-[18px] leading-8'>
-                        <p className='opacity-50'>Subscribe to our newsletter, AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. </p>
+
+                    <div className='-mt-[1px] minusmt relative z-10 w-full bg-white py-8 lastsecond'>
+
+                    </div>
+                    <div className='w-full minusmt -mt-[1px] bg-white px-28 py-6'>
+                        <div className='flex relative z-[200] w-full gap-6 poppins font-normal text-xl'>
+                            <input placeholder='Name' className='w-1/2 px-4 py-4 border border-black border-opacity-45 rounded-[8px]'>
+
+                            </input>
+                            <input placeholder='Email' className='w-1/2 px-4 py-4 border border-black border-opacity-45 rounded-[8px]'>
+
+                            </input>
+                        </div>
+                        <div className='mt-8 px-4 w-full'>
+                            <div className='w-full transform hover:scale-95 transition-transform ease-in duration-300 relative z-50 font-normal text-xl py-4 text-white flex justify-center rounded-[8px] items-center bg-[#476FFF]'>
+                                <p>Submit Details</p>
+                            </div>
+                        </div>
+                        <div className='poppins mt-10 text-center font-normal text-[18px] leading-8'>
+                            <p className='opacity-50'>Subscribe to our newsletter, AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. </p>
+                        </div>
+                    </div>
+                    <div className='w-full relative z-10  -mt-[1px] bg-white py-8 lastclip'>
+
                     </div>
                 </div>
-                <div className='w-full relative z-10  -mt-[1px] bg-white py-8 lastclip'>
 
-                </div>
 
             </div>
 
@@ -400,7 +402,7 @@ const Landing = () => {
 
             {/* footer */}
             <div className='w-full lg:block hidden mt-[20rem] lg:px-14'>
-                <div className='flex bg-[#475AFF] py-6 mb-6 rounded-[20px] items-center justify-between w-full'>
+                <div className='flex bg-[#475AFF] py-6 mb-6 rounded-[20px] items-center justify-between w-full px-2'>
                     <div className='flex items-center'>
                         <div >
                             <img src='/Images/footerlogo.png' className='w-[37px]'></img>

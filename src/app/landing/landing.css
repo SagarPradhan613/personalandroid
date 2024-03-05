@@ -78,3 +78,9 @@
         margin-top: -3px;
     }
 }
+
+@media screen and (min-width:1500px) {
+    .respponsive-boxes{
+        max-width: 536px !important;
+    }
+}

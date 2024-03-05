@@ -1,10 +1,21 @@
 'use client'
 import React from 'react';
 import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation'
 
 const Modal = ({ isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
     const [userChoice, setUserChoice] = useState(null);
     const [activeModal, setActiveModal] = useState(false);
+    const pathname = usePathname();
+    const [isDapp, setIsDapp] = useState(false);
+
+    useEffect(() => {
+        if (pathname === '/dapp') {
+            setIsDapp(true);
+        } else {
+            setIsDapp(false);
+        }
+    }, [])
 
     const handleAccept = () => {
         // Save user choice in local storage
@@ -23,7 +34,7 @@ const Modal = ({ isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
     };
 
     // useEffect(() => {
-        
+
     //     if (isOpen) {
     //         document.body.style.overflow = 'hidden';
     //         document.documentElement.style.overflow = 'hidden';
@@ -84,15 +95,54 @@ const Modal = ({ isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
                         </div>
                     </div>
 
-                    <div className='flex justify-center items-center'>
-                        <div className=' hover:transform hover:scale-110 hover:transition-transform hover:ease-in hover:duration-300'>
-                            <div className='bg-[#476FFF] text-white md:px-6 md:py-2 px-6 py-2 skew-btn rounded-[5px] mt-20 ' >
-                                <p className='md:text-lg text-sm font-medium'>
-                                    Open DAPP
-                                </p>
+                    {isDapp ?
+
+                        <>
+                            <div className='flex gap-4   flex-col justify-center items-center'>
+                                <div className='text-center font-normal text-xs opacity-50'>
+                                    <p>Contract already Deployed? <br/> Verify here!</p>
+                                </div>
+
+                                <div className=' hover:transform hover:scale-110 hover:transition-transform hover:ease-in hover:duration-300'>
+                                    <a href='/'>
+                                        <div className='bg-[#476FFF] min-w-[147px] text-white md:px-6 md:py-2 px-6 py-3  rounded-[5px]  ' >
+                                            <p className='md:text-lg text-sm font-medium'>
+                                               Verify
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className=' hover:transform hover:scale-110 hover:transition-transform hover:ease-in hover:duration-300'>
+                                    <a href='/dapp'>
+                                        <div className='bg-[#476FFF] min-w-[147px] text-white md:px-6 md:py-2 px-6 py-3  rounded-[5px] ' >
+                                            <p className='md:text-lg text-sm font-medium'>
+                                               Home
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        </>
+
+                        :
+                        <>
+                            <div className='flex justify-center items-center'>
+
+                                <div className=' hover:transform hover:scale-110 hover:transition-transform hover:ease-in hover:duration-300'>
+                                    <a href='/dapp'>
+                                        <div className='bg-[#476FFF] text-white md:px-6 md:py-2 px-6 py-2  rounded-[5px] mt-20 ' >
+                                            <p className='md:text-lg text-sm font-medium'>
+                                                Open DAPP
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </>
+
+                    }
+
+
                 </div>
             </div>
         </div>
