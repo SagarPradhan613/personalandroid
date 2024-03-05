@@ -26,7 +26,7 @@ const MainDapp = () => {
 
     return (
         <>
-            <div className='lg:flex hidden relative pt-20 w-full gap-6'>
+            <div className='lg:flex hidden h-[85vh] relative pt-20 w-full gap-6'>
                 <div className='absolute -top-52 left-0'>
                     <img src='/Images/dappleft.png'></img>
 

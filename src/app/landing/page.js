@@ -25,7 +25,7 @@ const Landing = () => {
                 <div className="lg:px-16 px-8 py-10 relative z-30  lg:pt-24 lg:pb-36">
                     <div className="flex gap-8 items-center mt-8 lg:mt-10">
                         <div className="flex items-center">
-                            <p className="text-white font-normal responsive-hero-text lg:text-[130px] whitespace-nowrap">Unlock the</p>
+                            <p className="text-white font-normal responsive-hero-text lg:text-[140px] whitespace-nowrap">Unlock the</p>
                         </div>
                         <div className="border border-[#476FFF] gap-6 rounded-[10px] transform hover:scale-110 transition-transform ease-in duration-300 lg:flex hidden items-center p-8">
                             <p className="text-white lg:text-3xl text-sm font-normal">open launcher</p>
@@ -81,13 +81,13 @@ const Landing = () => {
                 <div className='flex w-full -mt-[2px]'>
                     <div className='bg-white relative py-6 w-full items-start px-16 justify- flex rounded-bl-[20px] rounded-tr-[10px]'>
 
-                        <div className='font-normal  lg:text-7xl pb-16 '>
+                        <div className='font-normal mt-2 lg:text-7xl pb-16 '>
                             <p>What is</p>
                             <p className='text-[#9747FF] '>Android ?</p>
                         </div>
 
-                        <div className='flex ml-8 justify-start  items-start responsive-text-width  w-[52%]'>
-                            <p className='font-normal lg:text-lg leading-3 text-sm poppins opacity-50'>Droid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating straight forward processes with advanced technology, Droid removes the complexities of blockchain and smart contract development. With just a few clicks, users can connect their wallet, choose settings, and launch their own tokens, no coding </p>
+                        <div className='flex ml-8 justify-start mt-2 items-start responsive-text-width  w-[60%]'>
+                            <p className='font-normal lg:text-xl leading-3 lg:leading-8 text-sm poppins opacity-50'>Droid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating straight forward processes with advanced technology, Droid removes the complexities of blockchain and smart contract development. With just a few clicks, users can connect their wallet, choose settings, and launch their own tokens, no coding </p>
                         </div>
 
                         <div className='right-10  absolute  ml-[13rem]  top-20  z-50 '>
@@ -183,18 +183,18 @@ const Landing = () => {
             </div>
 
             {/* third section */}
-            <div className='flex justify-between relative flex-col mt-20 px-4 lg:flex-row lg:gap-6 gap-20'>
+            <div className='flex justify-between relative flex-col mt-20 px-4 lg:flex-row lg:gap-6 gap-10'>
                 <div className='absolute left-0 -top-80'>
                     <img src='/Images/easeleft.png'></img>
 
                 </div>
                 <div className='relative'>
-                    <div className='absolute transform hover:scale-110 transition-transform ease-in duration-300 z-50 gradient-bg -top-12 left-8 border border-white border-opacity-30 rounded-[50%] lg:h-[159px] h-[97px] w-[97px] flex justify-center items-center lg:w-[159px]'>
+                    <div className='absolute transform hover:scale-110 transition-transform ease-in duration-300 z-50 gradient-bg lg:-top-12 -top-6 left-8 border border-white border-opacity-30 rounded-[50%] lg:h-[159px] h-[97px] w-[97px] flex justify-center items-center lg:w-[159px]'>
                         <img src='/Images/gradientpp1.png' className='lg:w-[66px] lg:h-[76px] w-[40px] h-[40px]'></img>
                     </div>
-                    <div className='bg-[#475AFF] respponsive-boxes rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-16 lg:pt-32'>
-                        <p className='font-normal text-2xl lg:text-4xl text-white'>Ease of Use</p>
-                        <p className='mt-6 poppins font-normal text-white opacity-50 text-xs lg:text-lg'>AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating </p>
+                    <div className='bg-[#475AFF] respponsive-boxes rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-24 lg:pt-32'>
+                        <p className='font-normal text-2xl lg:text-4xl text-white responsive-box-title'>Ease of Use</p>
+                        <p className='mt-6 poppins font-normal text-white opacity-50 text-xs responsive-box-para lg:text-lg'>AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating </p>
 
                         <div className='flex mt-6 gap-4 text-white items-center'>
                             <p className='font-normal text-xs lg:text-xl'>Know more</p>
@@ -210,12 +210,12 @@ const Landing = () => {
                 </div>
 
                 <div className='relative'>
-                    <div className='absolute transform hover:scale-110 transition-transform ease-in duration-300 z-50 gradient-bg -top-12 left-8 border border-white border-opacity-30 rounded-[50%] lg:h-[159px] h-[97px] w-[97px] flex justify-center items-center lg:w-[159px]'>
+                    <div className='absolute transform hover:scale-110 transition-transform ease-in duration-300 z-50 gradient-bg lg:-top-12 -top-6 left-8 border border-white border-opacity-30 rounded-[50%] lg:h-[159px] h-[97px] w-[97px] flex justify-center items-center lg:w-[159px]'>
                         <img src='/Images/gradientpp2.png' className='lg:w-[66px] lg:h-[76px] w-[40px] h-[40px]'></img>
                     </div>
-                    <div className='bg-[#475AFF] respponsive-boxes rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-16 lg:pt-32'>
-                        <p className='font-normal text-2xl lg:text-4xl text-white'>customizable tokens</p>
-                        <p className='mt-6 poppins font-normal text-white opacity-50 text-xs lg:text-lg'>AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating </p>
+                    <div className='bg-[#475AFF] respponsive-boxes rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-20 lg:pt-32'>
+                        <p className='font-normal text-2xl lg:text-4xl responsive-box-title text-white'>Customizable tokens</p>
+                        <p className='mt-6 poppins font-normal text-white opacity-50 text-xs lg:text-lg responsive-box-para'>AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating </p>
 
                         <div className='flex mt-6 gap-4 text-white items-center'>
                             <p className='font-normal text-xs lg:text-xl'>Know more</p>
@@ -231,12 +231,12 @@ const Landing = () => {
                 </div>
 
                 <div className='relative'>
-                    <div className='absolute transform hover:scale-110 transition-transform ease-in duration-300 z-50 gradient-bg -top-12 left-8 border border-white border-opacity-30 rounded-[50%] lg:h-[159px] h-[97px] w-[97px] flex justify-center items-center lg:w-[159px]'>
+                    <div className='absolute transform hover:scale-110 transition-transform ease-in duration-300 z-50 gradient-bg lg:-top-12 -top-6 left-8 border border-white border-opacity-30 rounded-[50%] lg:h-[159px] h-[97px] w-[97px] flex justify-center items-center lg:w-[159px]'>
                         <img src='/Images/gradientpp3.png' className='lg:w-[66px] lg:h-[76px] w-[40px] h-[40px]'></img>
                     </div>
-                    <div className='bg-[#475AFF] respponsive-boxes rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-16 lg:pt-32'>
-                        <p className='font-normal text-2xl lg:text-4xl text-white whitespace-nowrap'>Automated Verification</p>
-                        <p className='mt-6 poppins font-normal text-white opacity-50 text-xs lg:text-lg'>AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating </p>
+                    <div className='bg-[#475AFF]  respponsive-boxes rounded-[25px] px-6 pb-10 lg:max-h-[445px] pt-20 lg:pt-32'>
+                        <p className='font-normal text-2xl lg:text-4xl text-white whitespace-nowrap responsive-box-title'>Automated Verification</p>
+                        <p className='mt-6 poppins font-normal text-white opacity-50 text-xs lg:text-lg responsive-box-para'>AnDroid is an innovative and user-friendly platform that simplifies creating digital tokens for both individuals and organizations. By integrating </p>
 
                         <div className='flex mt-6 gap-4 text-white items-center'>
                             <p className='font-normal text-xs lg:text-xl'>Know more</p>
@@ -254,7 +254,7 @@ const Landing = () => {
             </div>
 
             {/* forth section */}
-            <div className='lg:flex block w-full responsive-big-paddings lg:px-40 px-8 lg:py-40'>
+            <div className='lg:flex block mt-10 lg:mt-0 w-full responsive-big-paddings lg:px-40 px-8 lg:py-40'>
                 <div className='flex updown justify-center items-center'>
                     <img src='/Images/unlock.png' className='lg:max-w-[363px] max-w-[245px]'></img>
                 </div>

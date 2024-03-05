@@ -29,6 +29,15 @@
     .responsive-pc-size{
         min-width:500px !important;
     }
+    .responsive-box-title{
+        font-size: 30px !important;
+    }
+    .responsive-box-para{
+        font-size: 14px !important;
+    }
+    .respponsive-boxes{
+        min-height: 396px;
+    }
 }
 
 .top-white-portion {
