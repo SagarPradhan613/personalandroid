@@ -343,10 +343,10 @@ const Landing = () => {
                     </div>
                     <div className='w-full minusmt -mt-[1px] bg-white px-28 py-6'>
                         <div className='flex relative z-[200] w-full gap-6 poppins font-normal text-xl'>
-                            <input placeholder='Name' className='w-1/2 px-4 py-4 border border-black border-opacity-45 rounded-[8px]'>
+                            <input placeholder='Name' className='w-1/2 blackplaceholder px-4 py-4 border border-black border-opacity-45 rounded-[8px]'>
 
                             </input>
-                            <input placeholder='Email' className='w-1/2 px-4 py-4 border border-black border-opacity-45 rounded-[8px]'>
+                            <input placeholder='Email' className='w-1/2 blackplaceholder px-4 py-4 border border-black border-opacity-45 rounded-[8px]'>
 
                             </input>
                         </div>
@@ -380,13 +380,10 @@ const Landing = () => {
 
                 </div>
                 <div className='bg-white relative z-20 -mt-[2px] py-3 w-full px-6'>
-                    <div className='flex mt-4 flex-col w-full gap-3 poppins font-normal text-sm'>
-                        <input placeholder='Name' className=' px-4 py-3 border border-black border-opacity-45 rounded-[8px]'>
+                    <div class='flex mt-4 flex-col w-full gap-3 poppins font-normal text-sm'>
+                        <input placeholder='Name' class='blackplaceholder px-4 py-3 border border-black border-opacity-45 rounded-[8px]' />
 
-                        </input>
-                        <input placeholder='Email' className=' px-4 py-3 border border-black border-opacity-45 rounded-[8px]'>
-
-                        </input>
+                        <input placeholder='Email' class='blackplaceholder text-black px-4 py-3 border border-black border-opacity-45 rounded-[8px]' />
                     </div>
                     <div className='mt-8  w-full'>
                         <div className='w-full font-normal text-sm py-4 text-white flex justify-center rounded-[8px] items-center bg-[#476FFF]'>

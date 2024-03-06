@@ -1,11 +1,14 @@
 'use client'
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Modal from "../Components/Modal/Modal";
 import MainDapp from "./MainDapp/MainDapp";
+import { VerifyProvider } from "./context/VerifyContext";
+// import { VerifyContext } from "./context/VerifyContext";
 
 const Dapp = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    // const {verify, setVerify } = useContext(VerifyContext);
 
     const handleCloseModal = () => {
         setIsModalOpen(false);
@@ -40,9 +43,11 @@ const Dapp = () => {
     };
     return (
         <>
-            <Modal isOpen={isModalOpen} handleToggleModal={handleToggleModal} onClose={handleCloseModal} setOpenPrivacy={setOpenPrivacy} openPrivacy={openPrivacy}></Modal>
-            <Navbar setOpenPrivacy={setOpenPrivacy} handleToggleModal={handleToggleModal} />
-            <MainDapp />
+            <VerifyProvider>
+                <Modal isOpen={isModalOpen} handleToggleModal={handleToggleModal} onClose={handleCloseModal} setOpenPrivacy={setOpenPrivacy} openPrivacy={openPrivacy}></Modal>
+                <Navbar setOpenPrivacy={setOpenPrivacy} handleToggleModal={handleToggleModal} />
+                <MainDapp />
+            </VerifyProvider>
         </>
     )
 }

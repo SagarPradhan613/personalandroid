@@ -1,13 +1,15 @@
 'use client'
-import React from 'react';
-import { useEffect, useState } from 'react';
+import React, { useState, useEffect,useContext } from 'react'
 import { usePathname } from 'next/navigation'
+import { VerifyContext } from '@/app/dapp/context/VerifyContext';
+
 
 const Modal = ({ isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
     const [userChoice, setUserChoice] = useState(null);
     const [activeModal, setActiveModal] = useState(false);
     const pathname = usePathname();
     const [isDapp, setIsDapp] = useState(false);
+    const { verify, setVerify } = useContext(VerifyContext);
 
     useEffect(() => {
         if (pathname === '/dapp') {
@@ -104,13 +106,13 @@ const Modal = ({ isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
                                 </div>
 
                                 <div className=' hover:transform hover:scale-110 hover:transition-transform hover:ease-in hover:duration-300'>
-                                    <a href='/'>
-                                        <div className='bg-[#476FFF] min-w-[147px] text-white md:px-6 md:py-2 px-6 py-3  rounded-[5px]  ' >
+                                   
+                                        <div onClick={()=>{setVerify(true)}} className='bg-[#476FFF] min-w-[147px] text-white md:px-6 md:py-2 px-6 py-3  rounded-[5px]  ' >
                                             <p className='md:text-lg text-sm font-medium'>
                                                Verify
                                             </p>
                                         </div>
-                                    </a>
+                                
                                 </div>
                                 <div className=' hover:transform hover:scale-110 hover:transition-transform hover:ease-in hover:duration-300'>
                                     <a href='/dapp'>

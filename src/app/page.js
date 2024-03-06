@@ -1,8 +1,10 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from "react";
 import Navbar from './Components/Navbar/Navbar';
 import Modal from './Components/Modal/Modal';
 import Landing from './landing/page';
+
+import { VerifyProvider } from "./dapp/context/VerifyContext";
 
 
 export default function Home() {
@@ -41,9 +43,13 @@ export default function Home() {
   };
   return (
     <>
-      <Modal isOpen={isModalOpen} handleToggleModal={handleToggleModal} onClose={handleCloseModal} setOpenPrivacy={setOpenPrivacy} openPrivacy={openPrivacy}></Modal>
-      <Navbar setOpenPrivacy={setOpenPrivacy} handleToggleModal={handleToggleModal}/>
-      <Landing />
+
+      <VerifyProvider>
+        <Modal isOpen={isModalOpen} handleToggleModal={handleToggleModal} onClose={handleCloseModal} setOpenPrivacy={setOpenPrivacy} openPrivacy={openPrivacy}></Modal>
+        <Navbar setOpenPrivacy={setOpenPrivacy} handleToggleModal={handleToggleModal} />
+        <Landing />
+      </VerifyProvider>
+
     </>
   )
 }

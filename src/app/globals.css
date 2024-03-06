@@ -27,7 +27,7 @@ body {
   }
 }
 
-.poppins{
+.poppins {
   font-family: Poppins-Regular !important;
 }
 
@@ -42,30 +42,87 @@ body {
   src: url(/Fonts/Poppins-Regular.ttf);
 }
 
-.know-more{
-  transition: all ease-in 300ms !important;
-}
-.know-more-down{
+.know-more {
   transition: all ease-in 300ms !important;
 }
 
-.know-more:hover{
-  transform: translateX(10px); 
+.know-more-down {
+  transition: all ease-in 300ms !important;
 }
 
-.know-more-down:hover{
-  transform: translateY(10px); 
+.know-more:hover {
+  transform: translateX(10px);
+}
+
+.know-more-down:hover {
+  transform: translateY(10px);
 }
 
 @keyframes moveUpDown {
-  0%, 100% {
-    transform: translateY(0); /* Start and end position */
+
+  0%,
+  100% {
+    transform: translateY(0);
+    /* Start and end position */
   }
+
   50% {
-    transform: translateY(-20px); /* Middle position, adjust the value as needed */
+    transform: translateY(-20px);
+    /* Middle position, adjust the value as needed */
   }
 }
 
 .updown {
-  animation: moveUpDown 2s ease-in-out infinite; /* Adjust duration as needed */
+  animation: moveUpDown 2s ease-in-out infinite;
+  /* Adjust duration as needed */
+}
+
+.custom-shadow {
+  box-shadow: rgba(53, 10, 209, 0.16) 0px 10px 36px 0px, rgba(9, 46, 170, 0.06) 0px 0px 0px 1px !important;
+}
+
+input::placeholder {
+  opacity: 50%;
+  color: white;
+}
+
+.blackplaceholder::placeholder {
+  opacity: 50%;
+  color: black !important;
+}
+
+@media screen and (max-width:720px) {
+  .mob-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .mob-copy-wallet{
+    width: 156px;
+  }
+}
+
+@media screen and (min-width:1400px) {
+  .fixed-min-h-dapp-box{
+    min-height: 650px;
+  }
+}
+
+@media screen and (min-width:1080px) and (max-width:1400px) {
+  .responsive-title{
+    margin-left: 6rem !important;
+    margin-top: -4.5rem;
+  }
+}
+
+@media screen and (min-width:1900px) and (max-width:2499px) {
+  .responsive-title{
+    margin-left: 15rem !important;
+  }
+}
+@media screen and (min-width:2500px) {
+  .responsive-title{
+    margin-left: 20rem !important;
+  }
 }

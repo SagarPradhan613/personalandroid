@@ -1,11 +1,11 @@
-const SelectNetwork = () => {
+const SelectNetwork = ({setRoad}) => {
     return (
         <>
-            <div className="w-full h-full rounded-[25px] px-10 py-8 pb-20 bg-[#001129]">
+            <div className="w-full fixed-min-h-dapp-box relative z-20 h-full rounded-[25px] px-10 py-8 pb-20 bg-[#001129]">
                 <div className="lg:flex lg:justify-between text-center lg:text-left justify-center">
                     <div className="text-white">
                         <p className="poppins font-normal text-sm opacity-50 lg:text-base">Step 2</p>
-                        <p className="font-semibold text-lg lg:text-2xl poppins">Select Network</p>
+                        <p className="font-semibold text-lg lg:text-2xl poppins mt-2">Select Network</p>
                     </div>
 
                     <div className="flex justify-center">
@@ -13,7 +13,7 @@ const SelectNetwork = () => {
                             <div className="bg-[#AAAAAA] rounded-[50%] h-[6px] w-[6px]">
 
                             </div>
-                            <p className="poppins font-normal text-sm opacity-80 text-white ml-4 whitespace-nowrap">0x4521545...4665025</p>
+                            <p className="poppins mob-copy-wallet font-normal text-xs lg:text-sm opacity-80 text-white ml-4 whitespace-nowrap">0x4521545...4665025</p>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const SelectNetwork = () => {
                         </div>
                         <div className="w-full border  justify-center border-[#476FFF33] flex items-center gap-4 lg:flex-row flex-col lg:px-6 rounded-[15px] pt-10 py-6">
 
-                            <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                            <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                 <div className="flex coinpfp justify-center items-center">
                                     <img src="/Images/eth.png" className="w-full h-full"></img>
                                 </div>
@@ -35,7 +35,7 @@ const SelectNetwork = () => {
 
                             </div>
 
-                            <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                            <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                 <div className="flex coinpfp justify-center items-center">
                                     <img src="/Images/bnb.png" className="w-full h-full"></img>
                                 </div>
@@ -46,7 +46,7 @@ const SelectNetwork = () => {
 
                             </div>
 
-                            <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                            <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                 <div className="flex coinpfp justify-center items-center">
                                     <img src="/Images/arb.png" className="w-full h-full"></img>
                                 </div>
@@ -57,7 +57,7 @@ const SelectNetwork = () => {
 
                             </div>
 
-                            <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                            <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                 <div className="flex coinpfp justify-center items-center">
                                     <img src="/Images/base.png" className="w-full h-full"></img>
                                 </div>
@@ -76,7 +76,7 @@ const SelectNetwork = () => {
                         </div>
                         <div className="w-full flex-col border justify-center border-[#476FFF33] flex items-center   lg:px-6 rounded-[15px] pt-10 py-6">
                             <div className="flex flex-wrap justify-center gap-4 lg:flex-row flex-col">
-                                <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                                <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                     <div className="flex coinpfp justify-center items-center">
                                         <img src="/Images/eth.png" className="w-full h-full"></img>
                                     </div>
@@ -87,7 +87,7 @@ const SelectNetwork = () => {
 
                                 </div>
 
-                                <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                                <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                     <div className="flex coinpfp justify-center items-center">
                                         <img src="/Images/eth.png" className="w-full h-full"></img>
                                     </div>
@@ -98,7 +98,7 @@ const SelectNetwork = () => {
 
                                 </div>
 
-                                <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                                <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                     <div className="flex coinpfp justify-center items-center">
                                         <img src="/Images/bnb.png" className="w-full h-full"></img>
                                     </div>
@@ -109,7 +109,7 @@ const SelectNetwork = () => {
 
                                 </div>
 
-                                <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                                <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                     <div className="flex coinpfp justify-center items-center">
                                         <img src="/Images/kava.png" className="w-full h-full"></img>
                                     </div>
@@ -120,7 +120,7 @@ const SelectNetwork = () => {
 
                                 </div>
 
-                                <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                                <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                     <div className="flex coinpfp justify-center items-center">
                                         <img src="/Images/etc.png" className="w-full h-full"></img>
                                     </div>
@@ -131,7 +131,7 @@ const SelectNetwork = () => {
 
                                 </div>
 
-                                <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                                <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                     <div className="flex coinpfp justify-center items-center">
                                         <img src="/Images/arb.png" className="w-full h-full"></img>
                                     </div>
@@ -142,7 +142,7 @@ const SelectNetwork = () => {
 
                                 </div>
 
-                                <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                                <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                     <div className="flex coinpfp justify-center items-center">
                                         <img src="/Images/cfx.png" className="w-full h-full"></img>
                                     </div>
@@ -156,7 +156,7 @@ const SelectNetwork = () => {
 
                             {/* <div className="flex mt-4 gap-4 lg:flex-row flex-col">
 
-                                <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                                <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                     <div className="flex coinpfp justify-center items-center">
                                         <img src="/Images/etc.png" className="w-full h-full"></img>
                                     </div>
@@ -167,7 +167,7 @@ const SelectNetwork = () => {
 
                                 </div>
 
-                                <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                                <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                     <div className="flex coinpfp justify-center items-center">
                                         <img src="/Images/arb.png" className="w-full h-full"></img>
                                     </div>
@@ -178,7 +178,7 @@ const SelectNetwork = () => {
 
                                 </div>
 
-                                <div className="border coinbox border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
+                                <div onClick={()=>{setRoad(3)}} className="border coinbox hover:scale-110 transition-all duration-300  border-[#476FFF66] gap-4 justify-start items-center flex pl-6 pr-6 py-4 rounded-[15px]">
                                     <div className="flex coinpfp justify-center items-center">
                                         <img src="/Images/cfx.png" className="w-full h-full"></img>
                                     </div>

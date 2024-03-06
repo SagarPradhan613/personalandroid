@@ -1,12 +1,15 @@
 'use client'
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect,useContext } from 'react'
 import './Navbar.css'
 import { usePathname } from 'next/navigation'
+import { VerifyContext } from '@/app/dapp/context/VerifyContext'
 
 
 const Navbar = ({ handleToggleModal }) => {
     const pathname = usePathname();
     const [isDapp, setIsDapp] = useState(false);
+    const { verify, setVerify } = useContext(VerifyContext);
+    
 
     useEffect(() => {
         if (pathname === '/dapp') {
@@ -51,7 +54,7 @@ const Navbar = ({ handleToggleModal }) => {
                     {isDapp ?
                         <>
                             <div className='relative z-50 transform hover:scale-110 transition-transform ease-in duration-300'>
-                                <div className='bg-[#476fff]  text-white md:px-8 md:py-2 px-6 py-2  rounded-[5px] ' >
+                                <div onClick={()=>{setVerify(true)}} className='bg-[#476fff]  text-white md:px-8 md:py-2 px-6 py-2  rounded-[5px] ' >
                                     <p className='skew-div md:text-lg text-sm font-medium'>
                                         Verify
                                     </p>

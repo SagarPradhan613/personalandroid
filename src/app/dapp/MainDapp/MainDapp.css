@@ -31,9 +31,9 @@
 }
 
 .mob2{
-    background-image: url('/Images/mob2.png');
+    background-image: url('/Images/newmob2.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%; /* Adjust this value as needed */
    
 }
 
@@ -71,3 +71,40 @@
         white-space: nowrap;
     }
 }
+
+.checkbox-container {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .checkbox-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: #001129 !important;
+    border: 2px solid #476FFF !important;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .checkbox-input:checked {
+    background-color: #001129 !important;
+    border-color: #476FFF !important;
+  }
+  
+  .checkbox-input:checked::before {
+    content: '✔';
+    display: block;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #476FFF !important;
+  }
+  
+ 
