@@ -40,7 +40,7 @@ const Done = ({setRoad}) => {
                 <div className="w-full mt-20 lg:mt-0 flex justify-center items-center">
                     <div className="w-full flex-col flex justify-center items-center">
                         <p className="lg:text-2xl poppins font-normal text-white">Token Contract</p>
-                        <div className="mt-6 justify-center overflow-hidden w-full lg:w-[60%] py-4 lg:px-4 rounded-[6px] border border-[#476FFF80] flex items-center">
+                        <div className="mt-6 justify-center overflow-hidden w-full responsive-copy-box lg:w-[60%] py-4 lg:px-4 rounded-[6px] border border-[#476FFF80] flex items-center">
                             <div>
                                 <p className="poppins font-normal text-xs lg:text-sm text-white">0x9bEE7D9c9CD673a04610a718cdcFAa62901c807</p>
                             </div>
@@ -54,7 +54,7 @@ const Done = ({setRoad}) => {
                                 <p className="font-normal text-[#476FFF] text-xs">Copy</p>
                             </div>
                         </div>
-                        <div className="w-[70%] lg:hidden mt-8 bg-[#476FFF] border  border-[#476FFF] rounded-[6px] flex justify-center items-center text-white  py-2 px-4 text-base ]">
+                        <div onClick={copyToClipboard} className="w-[70%] lg:hidden mt-8 bg-[#476FFF] border  border-[#476FFF] rounded-[6px] flex justify-center items-center text-white  py-2 px-4 text-base ]">
                             <div className="mr-2">
                                 <img src="/Images/copy.png"></img>
                             </div>

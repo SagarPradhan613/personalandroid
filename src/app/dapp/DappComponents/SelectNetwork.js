@@ -29,7 +29,7 @@ const SelectNetwork = ({setRoad}) => {
                                     <img src="/Images/eth.png" className="w-full h-full"></img>
                                 </div>
                                 <div className="flex flex-col items-start justify-center">
-                                    <p className="text-white opacity-[80%] lg:text-base">Ethereum</p>
+                                    <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base">Ethereum</p>
                                     <p className="text-white opacity-50 text-xs">ETH</p>
                                 </div>
 
@@ -40,7 +40,7 @@ const SelectNetwork = ({setRoad}) => {
                                     <img src="/Images/bnb.png" className="w-full h-full"></img>
                                 </div>
                                 <div className="flex flex-col items-start justify-center">
-                                    <p className="text-white opacity-[80%] lg:text-base">Binance</p>
+                                    <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base">Binance</p>
                                     <p className="text-white opacity-50 text-xs">BNB</p>
                                 </div>
 
@@ -51,7 +51,7 @@ const SelectNetwork = ({setRoad}) => {
                                     <img src="/Images/arb.png" className="w-full h-full"></img>
                                 </div>
                                 <div className="flex flex-col items-start justify-center">
-                                    <p className="text-white opacity-[80%] lg:text-base">Arbitrum</p>
+                                    <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base">Arbitrum</p>
                                     <p className="text-white opacity-50 text-xs">ARB</p>
                                 </div>
 
@@ -62,7 +62,7 @@ const SelectNetwork = ({setRoad}) => {
                                     <img src="/Images/base.png" className="w-full h-full"></img>
                                 </div>
                                 <div className="flex flex-col items-start justify-center">
-                                    <p className="text-white opacity-[80%] lg:text-base">Base</p>
+                                    <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base">Base</p>
                                     <p className="text-white opacity-50 text-xs">BASE</p>
                                 </div>
 
@@ -81,7 +81,7 @@ const SelectNetwork = ({setRoad}) => {
                                         <img src="/Images/eth.png" className="w-full h-full"></img>
                                     </div>
                                     <div className="flex flex-col items-start justify-center">
-                                        <p className="text-white opacity-[80%] lg:text-base whitespace-nowrap">Goerli Test</p>
+                                        <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base whitespace-nowrap">Goerli Test</p>
                                         <p className="text-white opacity-50 text-xs">ETH</p>
                                     </div>
 
@@ -92,7 +92,7 @@ const SelectNetwork = ({setRoad}) => {
                                         <img src="/Images/eth.png" className="w-full h-full"></img>
                                     </div>
                                     <div className="flex flex-col items-start justify-center">
-                                        <p className="text-white opacity-[80%] lg:text-base whitespace-nowrap">Sepholia</p>
+                                        <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base whitespace-nowrap">Sepholia</p>
                                         <p className="text-white opacity-50 text-xs">BNB</p>
                                     </div>
 
@@ -103,7 +103,7 @@ const SelectNetwork = ({setRoad}) => {
                                         <img src="/Images/bnb.png" className="w-full h-full"></img>
                                     </div>
                                     <div className="flex flex-col items-start justify-center">
-                                        <p className="text-white opacity-[80%] lg:text-base whitespace-nowrap">BSC Test</p>
+                                        <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base whitespace-nowrap">BSC Test</p>
                                         <p className="text-white opacity-50 text-xs">BNB</p>
                                     </div>
 
@@ -114,7 +114,7 @@ const SelectNetwork = ({setRoad}) => {
                                         <img src="/Images/kava.png" className="w-full h-full"></img>
                                     </div>
                                     <div className="flex flex-col items-start justify-center">
-                                        <p className="text-white opacity-[80%] lg:text-base whitespace-nowrap">Kava Test</p>
+                                        <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base whitespace-nowrap">Kava Test</p>
                                         <p className="text-white opacity-50 text-xs">KAVA</p>
                                     </div>
 
@@ -125,7 +125,7 @@ const SelectNetwork = ({setRoad}) => {
                                         <img src="/Images/etc.png" className="w-full h-full"></img>
                                     </div>
                                     <div className="flex flex-col items-start justify-center">
-                                        <p className="text-white opacity-[80%] lg:text-base">Etherium Cl</p>
+                                        <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base">Etherium Cl</p>
                                         <p className="text-white opacity-50 text-xs">BNB</p>
                                     </div>
 
@@ -136,7 +136,7 @@ const SelectNetwork = ({setRoad}) => {
                                         <img src="/Images/arb.png" className="w-full h-full"></img>
                                     </div>
                                     <div className="flex flex-col items-start justify-center">
-                                        <p className="text-white opacity-[80%] lg:text-base">Arbitrum</p>
+                                        <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base">Arbitrum</p>
                                         <p className="text-white opacity-50 text-xs">ETH</p>
                                     </div>
 
@@ -147,7 +147,7 @@ const SelectNetwork = ({setRoad}) => {
                                         <img src="/Images/cfx.png" className="w-full h-full"></img>
                                     </div>
                                     <div className="flex flex-col items-start justify-center">
-                                        <p className="text-white opacity-[80%] lg:text-base">Conflux</p>
+                                        <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base">Conflux</p>
                                         <p className="text-white opacity-50 text-xs">CFX</p>
                                     </div>
 

@@ -126,3 +126,15 @@ input::placeholder {
     margin-left: 20rem !important;
   }
 }
+
+@media screen and (min-width: 1080px) and (max-width: 1500px) {
+  .flex-responsive > div {
+      flex-basis: calc(33.33% - 2rem) !important; /* Adjust spacing as needed */
+  }
+}
+
+@media screen and (min-width: 1501px) {
+  .flex-responsive > div {
+      flex-basis: calc(25% - 2rem) !important; /* Adjust spacing as needed */
+  }
+}
