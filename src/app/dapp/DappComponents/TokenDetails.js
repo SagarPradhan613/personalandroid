@@ -61,7 +61,7 @@ const TokenDetails = ({ setRoad }) => {
 
                     <div className="relative lg:w-[30%] w-full">
                         <div onClick={() => { setDrop2(!drop2) }} className=" border border-[#476FFF] rounded-[6px] flex justify-between items-center text-white text-opacity-70 py-4 px-4 text-base bg-[#476FFF33]">
-                            select a router
+                            Select a router
 
                             <div>
                                 <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -19,32 +19,40 @@
     .responsive-hero-text {
         font-size: 120px !important;
     }
-    .responsive-text-width{
+
+    .responsive-text-width {
         width: 48% !important;
     }
-    .responsive-big-paddings{
+
+    .responsive-big-paddings {
         padding-left: 8rem !important;
         padding-right: 8rem !important;
     }
-    .responsive-pc-size{
-        min-width:500px !important;
+
+    .responsive-pc-size {
+        min-width: 500px !important;
     }
-    .responsive-box-title{
+
+    .responsive-box-title {
         font-size: 30px !important;
     }
-    .responsive-box-para{
+
+    .responsive-box-para {
         font-size: 14px !important;
     }
-    .respponsive-boxes{
+
+    .respponsive-boxes {
         min-height: 396px;
     }
 }
+
 @media screen and (min-width:1300px) and (max-width:1500px) {
- 
-    .respponsive-boxes{
+
+    .respponsive-boxes {
         min-height: 436px;
     }
 }
+
 .top-white-portion {
 
     clip-path: polygon(0 0, 95% 0, 100% 100%, 100% 100%, 0 100%, 0% 50%);
@@ -55,58 +63,72 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 8% 100%, 0 0);
 }
 
-.mob-top{
+.mob-top {
     clip-path: polygon(8% 0, 92% 0, 100% 100%, 0% 100%);
 }
-.mob-bottom{
+
+.mob-bottom {
     clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%);
 }
-.gradient-bg{
+
+.gradient-bg {
     background-image: linear-gradient(to bottom, #20338d, #4659fb);
 
 }
 
-.lastfirst{
+.lastfirst {
     clip-path: polygon(0 0, 85% 0, 100% 100%, 100% 100%, 0 100%, 0% 50%);
 }
-.lastsecond{
+
+.lastsecond {
     clip-path: polygon(0 0, 93% 0, 100% 100%, 100% 100%, 0 100%, 0% 50%);
 }
-.lastclip{
+
+.lastclip {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%);
 }
 
 @media screen and (min-width:1900px) {
-    .relative-last-padding{
+    .relative-last-padding {
         padding-left: 25rem !important;
         padding-right: 25rem !important;
     }
 }
 
 @media screen and (min-width:2500px) {
-    .relative-last-padding{
+    .relative-last-padding {
         padding-left: 35rem !important;
         padding-right: 35rem !important;
     }
-    .minusmt{
+
+    .minusmt {
         margin-top: -3px;
     }
 }
 
 @media screen and (min-width:1500px) {
-    .respponsive-boxes{
+    .respponsive-boxes {
         max-width: 536px !important;
-       height: 436px !important;
+        height: 436px !important;
     }
 
 }
+
 @media screen and (min-width:1600px) {
-    .respponsive-scond-margin{
-       margin-top: 0.5rem !important;
+    .respponsive-scond-margin {
+        margin-top: 0.5rem !important;
     }
 }
+
 @media screen and (min-width:1700px) {
-    .respponsive-scond-margin{
-       margin-top: 3rem !important;
+    .respponsive-scond-margin {
+        margin-top: 3rem !important;
+    }
+}
+
+
+@media screen and (min-width:1900px) and (max-width:2500px) {
+    .new-responsive-right {
+        margin-left: 16rem !important;
     }
 }

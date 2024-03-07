@@ -33,38 +33,43 @@ const Verify = () => {
 
                 <div className="w-full mt-20 flex justify-center items-center">
                     <div className="w-full flex-col flex justify-center items-center">
-                        <p className="lg:text-2xl poppins font-normal text-white">Token Contract</p>
-                        <input placeholder="Enter Contract Address" className="mt-6 bg-[#001129] text-xs px-4 text-white overflow-hidden w-full lg:w-[60%] py-4 lg:px-4 rounded-[6px] border border-[#476FFF80] flex items-center">
+                        <p className="lg:text-2xl poppins font-normal text-white">Verify Contract</p>
+                        <div className="flex mt-4 lg:mt-8 lg:gap-3 gap-10 lg:w-[70%] justify-center items-center  lg:flex-row flex-col w-full">
+                            <input placeholder="Enter Contract Address" className=" bg-[#001129] text-xs px-4 text-white overflow-hidden w-full lg:w-[60%] py-4 lg:px-4 rounded-[6px] border border-[#476FFF80] flex items-center">
 
-                        </input>
-                        <div className="relative lg:w-[30%] mt-10 w-[60%]">
-                            <div onClick={() => { setDrop(!drop) }} className=" border border-[#476FFF] rounded-[6px] flex justify-between items-center text-white text-opacity-70 py-4 px-4 text-sm bg-[#476FFF33]">
-                                Select Network
+                            </input>
+                            
+                            <div className="relative lg:w-[30%] w-[60%]">
+                                <div onClick={() => { setDrop(!drop) }} className=" border border-[#476FFF] rounded-[6px] flex justify-between items-center text-white text-opacity-70 py-4 px-4 text-sm bg-[#476FFF33]">
+                                    Select Network
 
-                                <div>
-                                    <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1 1L6 7L11 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </div>
-                            </div>
-                            {drop ?
-                                <>
-                                    <div className="absolute flex-col z-30 mt-2 rounded-[6px] bg-[#0E2454] flex justify-start items-start w-full py-4 px-4">
-                                        <div onClick={() => { setDrop(!drop) }}>
-                                            <p className="text-white text-base">Lorem Ipsum</p>
-                                        </div>
-                                        <div onClick={() => { setDrop(!drop) }} className="mt-4">
-                                            <p className="text-white text-base">Lorem Ipsum</p>
-                                        </div>
+                                    <div>
+                                        <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1L6 7L11 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
                                     </div>
-                                </>
-                                :
-                                <>
-                                </>
-                            }
+                                </div>
+                                {drop ?
+                                    <>
+                                        <div className="absolute flex-col z-30 mt-2 rounded-[6px] bg-[#0E2454] flex justify-start items-start w-full py-4 px-4">
+                                            <div onClick={() => { setDrop(!drop) }}>
+                                                <p className="text-white text-base">Lorem Ipsum</p>
+                                            </div>
+                                            <div onClick={() => { setDrop(!drop) }} className="mt-4">
+                                                <p className="text-white text-base">Lorem Ipsum</p>
+                                            </div>
+                                        </div>
+                                    </>
+                                    :
+                                    <>
+                                    </>
+                                }
 
+
+                            </div>
 
                         </div>
+
 
                     </div>
                 </div>

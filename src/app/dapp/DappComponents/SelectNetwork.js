@@ -17,7 +17,7 @@ const SelectNetwork = ({setRoad}) => {
                         </div>
                     </div>
                 </div>
-                <div className="h-full  mt-6 flex-col w-full flex justify-center items-center">
+                <div className="h-full mt-16 lg:mt-6 flex-col w-full flex justify-center items-center">
                     <div className="relative w-full  poppins">
                         <div className="absolute flex justify-center items-center top-6 px-4 z-20 -mt-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                             <p className="font-normal text-xs lg:text-base text-white opacity-70 bg-[#001129] px-3 poppins">Mainnets</p>

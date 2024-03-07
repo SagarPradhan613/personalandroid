@@ -152,7 +152,6 @@ const MainDapp = () => {
                                             </div>
                                         </div>
                                     </div> */}
-
                                     <div className='flex justify-between'>
                                         <div className='stage-logos flex flex-col justify-center items-center '>
                                             {/* stage 1 */}
@@ -164,7 +163,6 @@ const MainDapp = () => {
                                                 </div>
                                             </div>
                                             <div className={`${road >= 2 ? "bg-[#476FFF]" : "bg-[#476FFF4D]"} transition-all duration-1000 w-[1px] h-[63px] bg-[#476FFF4D]`}>
-
                                             </div>
                                             {/* stage 2 */}
                                             <div className='flex items-center' onClick={() => { handleClick2() }}>
@@ -188,7 +186,6 @@ const MainDapp = () => {
                                                 </div>
                                             </div>
                                             <div className={`${road >= 4 ? "bg-[#476FFF]" : "bg-[#476FFF4D]"} transition-all duration-1000 w-[1px] h-[63px] bg-[#476FFF4D]`}>
-
                                             </div>
                                             {/* stage 4 */}
                                             <div className='flex items-center' onClick={() => { handleClick4() }}>
@@ -447,7 +444,7 @@ const MainDapp = () => {
                             </div>
                         </div>
 
-                        <div className='py-16  w-full px-10  mob2 min-h-[440px]'>
+                        <div className={`${road === 1  ? 'py-16  w-full px-10  mob2new min-h-[440px]' : 'py-16  w-full px-10  mob2 min-h-[440px]'}`} >
                             {/* <div className='w-full h-[800px] bg-black'>
 
                     </div> */}

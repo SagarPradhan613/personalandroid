@@ -23,11 +23,11 @@ const Landing = () => {
                     </div>
                 </div>
                 <div className="lg:px-16 px-8 py-10 relative z-30  lg:pt-24 lg:pb-36">
-                    <div className="flex gap-8 items-center mt-8 lg:mt-10">
+                    <div className="flex gap-8 items-center mt- lg:mt-10">
                         <div className="flex items-center">
                             <p className="text-white font-normal responsive-hero-text lg:text-[140px] whitespace-nowrap">Unlock the</p>
                         </div>
-                        <div className="border border-[#476FFF] gap-6 rounded-[10px] transform hover:scale-110 transition-transform ease-in duration-300 lg:flex hidden items-center py-6 px-8 pb-8">
+                        <div className="border new-responsive-right border-[#476FFF] gap-6 rounded-[10px] transform hover:scale-110 transition-transform ease-in duration-300 lg:flex hidden items-center py-6 px-8 pb-8">
                             <p className="text-white lg:text-3xl text-sm font-normal">open Launcher</p>
                             <svg width="58" height="24" viewBox="0 0 58 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M57.0607 13.0607C57.6465 12.4749 57.6465 11.5251 57.0607 10.9393L47.5147 1.39339C46.9289 0.807607 45.9792 0.807607 45.3934 1.39339C44.8076 1.97918 44.8076 2.92893 45.3934 3.51472L53.8787 12L45.3934 20.4853C44.8076 21.0711 44.8076 22.0208 45.3934 22.6066C45.9792 23.1924 46.9289 23.1924 47.5147 22.6066L57.0607 13.0607ZM1.31134e-07 13.5L56 13.5L56 10.5L-1.31134e-07 10.5L1.31134e-07 13.5Z" fill="#476FFF" />
@@ -47,7 +47,7 @@ const Landing = () => {
                         </svg>
                     </div>
 
-                    <div className="lg:flex  mt-6 relative z-[100] transform hover:scale-110 transition-transform ease-in duration-300 hidden items-center lg:gap-6 gap-2 ml-8">
+                    <div className="lg:flex  mt-6 relative z-[100]  hidden items-center lg:gap-6 gap-2 ml-8">
                         <p className="text-[#476FFF] font-normal text-base lg:text-lg">Know more</p>
                         <svg className='know-more-down z-50' width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7.29289 14.7071C7.68342 15.0976 8.31658 15.0976 8.70711 14.7071L15.0711 8.34315C15.4616 7.95262 15.4616 7.31946 15.0711 6.92893C14.6805 6.53841 14.0474 6.53841 13.6569 6.92893L8 12.5858L2.34315 6.92893C1.95262 6.53841 1.31946 6.53841 0.928932 6.92893C0.538408 7.31946 0.538408 7.95262 0.928933 8.34315L7.29289 14.7071ZM7 4.37114e-08L7 14L9 14L9 -4.37114e-08L7 4.37114e-08Z" fill="#476FFF" />

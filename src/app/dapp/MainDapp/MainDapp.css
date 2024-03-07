@@ -41,6 +41,13 @@
 
 }
 
+.mob2new {
+    background-image: url('/Images/newmob2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Adjust this value as needed */
+
+}
 @media screen and (max-height: 1000px) {
 
     /* .responsive-height{

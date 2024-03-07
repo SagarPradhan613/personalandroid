@@ -21,9 +21,9 @@ const ConnectWallet = ({setRoad}) => {
                     </div>
 
                 </div>
-                <div className="h-full lg:-mt-16 mt-6 flex-col w-full flex justify-center items-center">
+                <div className="h-full lg:-mt-16 mt-16 flex-col w-full flex justify-center items-center">
                     <div className="flex justify-center text-center">
-                        <p className="font-normal text-xs lg:text-base opacity-50  poppins text-white">Select a Waller of your choice</p>
+                        <p className="font-normal text-xs lg:text-base opacity-50  poppins text-white">Select a Wallet of your choice</p>
                     </div>
                     <div className="flex mt-6 gap-6">
                         <div onClick={()=>{setRoad(2)}} className="border-[#476FFF4D]  hover:scale-110 transition-all duration-300 flex justify-center items-center rounded-[18px] border h-[60px] w-[60px] lg:h-[90px] lg:w-[90px]">
