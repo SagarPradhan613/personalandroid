@@ -47,7 +47,7 @@ const MainDapp = () => {
                 </div>
                 <div className='w-[90%] fixed-height flex flex-col justify-center main2'>
                     <div>
-                        <p className='font-normal text-3xl -mt-10 text-white responsive-title ml-36'>Token Deployer</p>
+                        <p className={`${verify ? "font-normal text-3xl -mt-20 text-white responsive-title ml-36" : "font-normal text-3xl -mt-10 text-white responsive-title ml-36"}`}>Token Deployer</p>
                     </div>
 
 
