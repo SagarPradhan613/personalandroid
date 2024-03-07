@@ -65,9 +65,7 @@ const SelectNetwork = ({setRoad}) => {
                                     <p className="text-white responsive-coinbox-text opacity-[80%] lg:text-base">Base</p>
                                     <p className="text-white opacity-50 text-xs">BASE</p>
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
                     <div className="relative w-full mt-10 poppins">

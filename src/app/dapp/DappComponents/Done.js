@@ -36,7 +36,6 @@ const Done = ({setRoad}) => {
                         </div>
                     </div>
                 </div>
-
                 <div className="w-full mt-20 lg:mt-0 flex justify-center items-center">
                     <div className="w-full flex-col flex justify-center items-center">
                         <p className="lg:text-2xl poppins font-normal text-white">Token Contract</p>
@@ -62,7 +61,6 @@ const Done = ({setRoad}) => {
                         </div>
                     </div>
                 </div>
-
                 <div className="flex mt-20 gap-4 flex-col lg:hidden justify-center items-center">
                     <div onClick={()=>{setRoad(3)}} type="text" className="lg:w-[30%] font-normal  w-[90%] border  border-[#476FFF] rounded-[6px] flex justify-center items-center text-white  py-2 px-4 text-base bg-[#001129]">
                         Back
@@ -71,7 +69,6 @@ const Done = ({setRoad}) => {
                         Deploy
                     </div>
                 </div>
-
                 <div className="lg:flex hidden flex-wrap gap-4">
                     <div type="text" className="lg:w-[30%] hover:scale-110 transition-all duration-300 font-normal  w-full border  border-[#476FFF] rounded-[6px] flex justify-center items-center text-white  py-4 px-4 text-base bg-[#001129]">
                         Open Contract
