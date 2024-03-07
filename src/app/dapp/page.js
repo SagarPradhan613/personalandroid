@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import Modal from "../Components/Modal/Modal";
 import MainDapp from "./MainDapp/MainDapp";
 import { VerifyProvider } from "./context/VerifyContext";
+import DappNabar from "./DappComponents/DappNavbar/DappNavbar";
 // import { VerifyContext } from "./context/VerifyContext";
 
 const Dapp = () => {
@@ -45,7 +46,8 @@ const Dapp = () => {
         <>
             <VerifyProvider>
                 <Modal isOpen={isModalOpen} handleToggleModal={handleToggleModal} onClose={handleCloseModal} setOpenPrivacy={setOpenPrivacy} openPrivacy={openPrivacy}></Modal>
-                <Navbar setOpenPrivacy={setOpenPrivacy} handleToggleModal={handleToggleModal} />
+                {/* <Navbar setOpenPrivacy={setOpenPrivacy} handleToggleModal={handleToggleModal} /> */}
+                <DappNabar setOpenPrivacy={setOpenPrivacy} handleToggleModal={handleToggleModal} />
                 <MainDapp />
             </VerifyProvider>
         </>

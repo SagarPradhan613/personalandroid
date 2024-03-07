@@ -28,7 +28,7 @@ const Navbar = ({ handleToggleModal }) => {
                     <div className='flex relative z-50 justify-around items-center font-normal lg:text-sm  md:text-sm'>
                         <div className='flex transform hover:scale-110 transition-transform ease-in duration-300 justify-center items-center'>
                             <a href='/'>
-                                <img src='/Images/logo.png' className='max-w-[105px]'></img>
+                                <img src='/Images/logo.png' className='max-w-[150px]'></img>
                             </a>
                         </div>
                         {isDapp ?
