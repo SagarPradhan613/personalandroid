@@ -36,7 +36,7 @@ const Verify = () => {
                         <div className="w-full flex-col flex justify-center items-center">
                             <p className="lg:text-2xl poppins font-normal text-white">Verify Contract</p>
                             <div className="flex mt-4 lg:mt-8 lg:gap-3 gap-10 lg:w-[70%] justify-center items-center  lg:flex-row flex-col w-full">
-                                <input placeholder="Enter Contract Address" className=" bg-[#001129] text-xs px-4 text-white overflow-hidden w-full lg:w-[60%] py-4 lg:px-4 rounded-[6px] border border-[#476FFF80] flex items-center">
+                                <input placeholder="Enter Contract Address" className="lg:min-h-[55px] bg-[#001129] text-xs px-4 text-white overflow-hidden w-full lg:w-[60%] py-4 lg:px-4 rounded-[6px] border border-[#476FFF80] flex items-center">
 
                                 </input>
 
