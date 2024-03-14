@@ -70,7 +70,7 @@ const Navbar = ({ handleToggleModal }) => {
                     <div className='relative z-50 transform hover:scale-110 transition-transform ease-in duration-300'>
                         <div className='bg-[#476fff]  text-white md:px-8 md:py-2 px-6 py-2  rounded-[5px] ' >
                             <p className='skew-div md:text-lg text-sm font-medium'>
-                                Get Stared
+                                Get stared
                             </p>
                         </div>
                     </div>

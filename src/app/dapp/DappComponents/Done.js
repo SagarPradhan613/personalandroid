@@ -27,8 +27,8 @@ const Done = ({setRoad}) => {
                         <p className="font-semibold text-lg  lg:hidden block poppins mt-2">You Are Done</p>
                     </div>
 
-                    <div className="flex justify-center">
-                        <div className="border-[#476FFF] bg-[#476FFF33] mt-6 lg:mt-0 responsive-width-btn border flex rounded-[6px] items-center px-4 py-2">
+                    <div className="flex items-end justify-center">
+                        <div className="border-[#476FFF] lg:h-[44px] bg-[#476FFF33] mt-6 lg:mt-0 responsive-width-btn border flex rounded-[6px] items-center px-4 py-2">
                             <div className="bg-[#AAAAAA] rounded-[50%] h-[6px] w-[6px]">
 
                             </div>
